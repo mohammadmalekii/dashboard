@@ -7,8 +7,8 @@ import {
 import Content from "./Content";
 export default function Project({ title, showMore, contents }) {
   return (
-    <div className="bg-white dark:bg-slate-800 rounded-2xl p-5">
-      <div className="flex justify-end items-center gap-2 pb-4">
+    <div className="bg-white dark:bg-slate-800 rounded-2xl p-8  shadow-lg">
+      <div className="flex justify-end items-center gap-4 pb-4">
         <TrashIcon className="h-7 w-7 shrink-0 text-red-600 dark:text-white" />
         <PencilSquareIcon className="h-7 w-7 shrink-0 text-slate-400 dark:text-white" />
         <p className="text-lg text-blue-500">{title}</p>

@@ -13,7 +13,7 @@ export default function Header() {
         <Cog6ToothIcon className="h-9 w-9 text-slate-600 border border-slate-300 rounded-full p-[6px] cursor-pointer hover:bg-slate-300 dark:text-white dark:hover:text-slate-800 duration-200 transition-colors" />
         <button className="relative">
           <BellIcon className="h-9 w-9 text-slate-600 border border-slate-300 rounded-full p-[6px] cursor-pointer hover:bg-slate-300 dark:text-white dark:hover:text-slate-800 duration-200 transition-colors" />
-          <span className="absolute inline-flex items-center justify-center w-4 h-4 text-xs text-white bg-sky-500 rounded-full top-0 -right-1">
+          <span className="absolute inline-flex items-center justify-center w-4 h-4 text-xs text-white bg-blue-500 rounded-full top-0 -right-1">
             {Number(2).toLocaleString("fa")}
           </span>
         </button>
