@@ -43,13 +43,13 @@ export default function Profile() {
       </ProfileTitle>
       <ProfileTitle title="تگ لاین ها">
         <div className="flex flex-wrap justify-center items-center gap-4">
-          <button className="rounded-2xl bg-slate-100 p-2 hover:bg-slate-200 dark:bg-zinc-700 dark:text-white dark:hover:bg-zinc-600 transition-colors duration-200">
+          <button className="rounded-2xl bg-slate-100 p-2 hover:bg-slate-200 dark:bg-gray-700 dark:text-white dark:hover:bg-gray-600 transition-colors duration-200">
             تجربه کاربری
           </button>
-          <button className="rounded-2xl bg-slate-100 p-2 hover:bg-slate-200 dark:bg-zinc-700 dark:text-white dark:hover:bg-zinc-600 transition-colors duration-200">
+          <button className="rounded-2xl bg-slate-100 p-2 hover:bg-slate-200 dark:bg-gray-700 dark:text-white dark:hover:bg-gray-600 transition-colors duration-200">
             طراحی سایت
           </button>
-          <button className="rounded-2xl bg-slate-100 p-2 hover:bg-slate-200 dark:bg-zinc-700 dark:text-white dark:hover:bg-zinc-600 transition-colors duration-200">
+          <button className="rounded-2xl bg-slate-100 p-2 hover:bg-slate-200 dark:bg-gray-700 dark:text-white dark:hover:bg-gray-600 transition-colors duration-200">
             گرافیک
           </button>
         </div>
@@ -62,13 +62,13 @@ export default function Profile() {
       </ProfileTitle>
       <ProfileTitle title="مهارت ها">
         <div className="flex flex-wrap justify-center items-center gap-4">
-          <button className="rounded-2xl bg-slate-100 p-2 hover:bg-slate-200 dark:bg-zinc-700 dark:text-white dark:hover:bg-zinc-600 transition-colors duration-200">
+          <button className="rounded-2xl bg-slate-100 p-2 hover:bg-slate-200 dark:bg-gray-700 dark:text-white dark:hover:bg-gray-600 transition-colors duration-200">
             تجربه کاربری
           </button>
-          <button className="rounded-2xl bg-slate-100 p-2 hover:bg-slate-200 dark:bg-zinc-700 dark:text-white dark:hover:bg-zinc-600 transition-colors duration-200">
+          <button className="rounded-2xl bg-slate-100 p-2 hover:bg-slate-200 dark:bg-gray-700 dark:text-white dark:hover:bg-gray-600 transition-colors duration-200">
             طراحی سایت
           </button>
-          <button className="rounded-2xl bg-slate-100 p-2 hover:bg-slate-200 dark:bg-zinc-700 dark:text-white dark:hover:bg-zinc-600 transition-colors duration-200">
+          <button className="rounded-2xl bg-slate-100 p-2 hover:bg-slate-200 dark:bg-gray-700 dark:text-white dark:hover:bg-gray-600 transition-colors duration-200">
             گرافیک
           </button>
         </div>

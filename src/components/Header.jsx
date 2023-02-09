@@ -6,7 +6,7 @@ import DarkModeButton from "./DarkModeButton";
 
 export default function Header() {
   return (
-    <header className="w-full bg-white dark:bg-zinc-700 flex justify-between items-center px-7 py-5 shadow-lg z-10 absolute">
+    <header className="w-full bg-white dark:bg-gray-800 flex justify-between items-center px-7 py-5 shadow-lg z-10 absolute">
       <div className="flex gap-5">
         <DarkModeButton />
         <ArrowRightOnRectangleIcon className="h-9 w-9 text-slate-600 border border-slate-300 rounded-full p-[6px] cursor-pointer hover:bg-slate-300 dark:text-white dark:hover:text-slate-800 duration-200 transition-colors" />

@@ -5,7 +5,7 @@ import Sidebar from "./components/Sidebar";
 
 function App() {
   return (
-    <main className="bg-slate-200">
+    <main className="bg-slate-200 dark:bg-slate-900">
       <Header />
       <div className="flex justify-between pt-[88px]">
         <ProjectList />
