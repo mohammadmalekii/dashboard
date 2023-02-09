@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "IranSans";
+  src: local("GoldmanBold"), url("./Iranian-Sans.ttf") format("ttf");
+}
+
+body {
+  font-family: "IranSans";
+}
