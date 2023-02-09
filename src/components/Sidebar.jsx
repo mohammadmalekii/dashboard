@@ -8,7 +8,7 @@ import { CubeIcon } from "@heroicons/react/24/outline";
 
 export default function Sidebar() {
   return (
-    <aside className="bg-white dark:bg-zinc-700 w-56 h-screen relative">
+    <aside className="bg-white w-1/4 dark:bg-zinc-700 h-screen relative">
       <ul className="flex flex-col gap-5 p-3.5 pl-4">
         <li className="flex justify-end items-center gap-2 hover:bg-slate-100 hover:border-r-4 border-blue-300 hover:rounded-lg active:border-blue-700 transition-all duration-200 rounded-lg p-2 cursor-pointer dark:text-white dark:hover:bg-zinc-600 dark:hover:border-zinc-900 dark:active:border-blue-500">
           <p>داشبورد</p>
