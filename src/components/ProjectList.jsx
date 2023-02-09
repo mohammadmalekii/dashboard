@@ -1,6 +1,7 @@
 import { ClockIcon, QueueListIcon } from "@heroicons/react/24/outline";
 import Project from "./Project";
 import { projectListData } from "../data";
+import AddNewCategory from "./AddNewCategory";
 
 export default function ProjectList() {
   console.log(projectListData);
@@ -27,6 +28,7 @@ export default function ProjectList() {
           />
         ))}
       </div>
+      <AddNewCategory />
     </div>
   );
 }
