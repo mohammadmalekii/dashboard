@@ -5,7 +5,7 @@ import internet from "../assets/internet.svg";
 import whatsapp from "../assets/whatsapp.svg";
 export default function Profile() {
   return (
-    <div className="w-1/4 bg-white dark:bg-slate-800 dark:text-white rounded-2xl m-5 px-5 pb-11 shadow-lg">
+    <div className="w-auto lg:w-4/5 bg-white dark:bg-slate-800 dark:text-white rounded-2xl m-5 px-5 pb-11 shadow-lg flex-1">
       <ProfileTitle title="اطلاعات شناسایی">
         <div className="flex flex-col justify-center items-center gap-5">
           <div className="flex justify-center items-center">

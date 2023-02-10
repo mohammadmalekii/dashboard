@@ -7,13 +7,13 @@ import {
 import Content from "./Content";
 export default function Project({ title, showMore, contents }) {
   return (
-    <div className="bg-white dark:bg-slate-800 rounded-2xl p-8  shadow-lg">
+    <div className="bg-white dark:bg-slate-800 rounded-2xl p-8 w-full shadow-lg">
       <div className="flex justify-end items-center gap-4 pb-4">
         <TrashIcon className="h-7 w-7 shrink-0 text-red-600 dark:text-white" />
         <PencilSquareIcon className="h-7 w-7 shrink-0 text-slate-400 dark:text-white" />
         <p className="text-lg text-blue-500">{title}</p>
       </div>
-      <div className="flex justify-end items-center gap-4">
+      <div className="flex flex-col-reverse md:flex-row  justify-end items-center gap-4">
         <div className="flex flex-col justify-center items-center ">
           <PlusCircleIcon className="w-7 h-7 text-blue-600" />
           <p className="text-blue-600 min-w-max">افزودن اثر</p>

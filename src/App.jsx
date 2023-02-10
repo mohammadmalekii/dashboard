@@ -13,7 +13,7 @@ import NotFoundPage from "./pages/NotFoundPage";
 function App() {
   return (
     <Router>
-      <main className="bg-slate-200 dark:bg-slate-900 transition-all duration-500 ease-in-out">
+      <main className="bg-slate-200 dark:bg-slate-900 transition-all duration-500 ease-in-out min-w-min">
         <Header />
         <div className="flex justify-between pt-[88px]">
           <Routes>

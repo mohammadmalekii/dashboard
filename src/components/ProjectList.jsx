@@ -5,7 +5,7 @@ import AddNewCategory from "./AddNewCategory";
 
 export default function ProjectList() {
   return (
-    <div className="w-[55%] ml-6">
+    <div className="w-11/12 m-5 lg:ml-5">
       <div className="flex justify-between items-center py-5 dark:text-white">
         <div className="flex justify-center items-center gap-2 ">
           <div className="flex justify-between items-center gap-1 bg-slate-400 rounded-full w-16 p-1">
