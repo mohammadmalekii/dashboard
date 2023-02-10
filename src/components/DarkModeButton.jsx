@@ -1,6 +1,6 @@
 import { MoonIcon } from "@heroicons/react/24/solid";
 import { SunIcon } from "@heroicons/react/24/solid";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 export default function DarkModeButton() {
   const [toggle, setToggle] = useState(false);
 

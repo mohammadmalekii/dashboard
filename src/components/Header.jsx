@@ -1,6 +1,8 @@
-import { BellIcon } from "@heroicons/react/24/outline";
-import { Cog6ToothIcon } from "@heroicons/react/24/outline";
-import { ArrowRightOnRectangleIcon } from "@heroicons/react/24/outline";
+import {
+  BellIcon,
+  Cog6ToothIcon,
+  ArrowRightOnRectangleIcon,
+} from "@heroicons/react/24/outline";
 import logo from "../assets/logo.svg";
 import DarkModeButton from "./DarkModeButton";
 
