@@ -75,40 +75,40 @@ export const projectListData = [
 ];
 
 export const linkData = [
-  { linkName: "داشبورد", active: true, path: "/", Icon: Squares2X2Icon },
+  { linkName: "داشبورد", path: "/", Icon: Squares2X2Icon },
   {
     linkName: "پروفایل",
-    active: false,
+
     path: "/profile",
     Icon: UserCircleIcon,
   },
   {
     linkName: "گفتگو ها",
-    active: false,
+
     path: "/conversations",
     Icon: ChatBubbleLeftRightIcon,
   },
   {
     linkName: "ارسال دعوت نامه",
-    active: false,
+
     path: "/sending-invitation",
     Icon: EnvelopeIcon,
   },
   {
     linkName: "صدور پیش فاکتور",
-    active: false,
+
     path: "/invoice-issuance",
     Icon: NewspaperIcon,
   },
   {
     linkName: "عضویت در کانتمو",
-    active: false,
+
     path: "/join-to-contemo",
     Icon: UserPlusIcon,
   },
   {
     linkName: "نمایش آثار",
-    active: false,
+
     path: "/show-result",
     Icon: CubeIcon,
   },
